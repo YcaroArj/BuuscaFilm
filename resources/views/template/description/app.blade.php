@@ -18,17 +18,22 @@
                         <h1 class="text-3xl font-bold mt-2">
                             {{ $movie['title'] }} ({{ \Carbon\Carbon::parse($movie['release_date'])->format('Y') }})
                         </h1>
-                        <span>⭐{{ floor($movie['vote_average'] * 10) . '%' }}</span>
-                        <span>|</span>
-                        <span>
-                            @foreach ($movie['genres'] as $genre)
-                                {{ $genre['name'] }} @if (!$loop->last)
-                                    ,
-                                @endif
-                            @endforeach
-                        </span>
-                        <span>|</span>
-                        <span>{{ floor($movie['runtime'] / 60) }}h {{ $movie['runtime'] % 60 }}min</span>
+                        <div class="flex flex-row">
+                            <div class=" w-[25px] h-[25px] border flex items-center justify-center">
+                                <span>{{$rating}}</span>
+                            </div>
+                            <p>⭐{{ floor($movie['vote_average'] * 10) . '%' }} |</p>
+                            <p>
+                                @foreach ($movie['genres'] as $genre) 
+                                    {{ $genre['name'] }} @if (!$loop->last)
+                                        ,
+                                    @endif 
+                                @endforeach
+                                 
+                            </p>
+                            <p> | {{ floor($movie['runtime'] / 60) }}h {{ $movie['runtime'] % 60 }}min</p>
+                        </div>
+                        
                     </div>
                     <div>
                         <h1 class="text-2xl">Sinopse</h1>
