@@ -1,0 +1,9 @@
+@media (max-width: 1280px) {
+    .menu {
+        display: none;
+    }
+
+    .menu.show {
+        display: block;
+    }
+}
