@@ -18,7 +18,7 @@
                         <h1 class="text-3xl font-bold mt-2">
                             {{ $movie['title'] }} ({{ \Carbon\Carbon::parse($movie['release_date'])->format('Y') }})
                         </h1>
-                        <div class="flex flex-row flex-wrap">
+                        <div class="flex flex-row flex-wrap max-phone:mt-2">
                             <div class=" w-[25px] h-[25px] border flex items-center justify-center">
                                 <span>{{$rating}}</span>
                             </div>
