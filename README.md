@@ -10,13 +10,11 @@ Filtro por Faixa Etária: Possibilita filtrar os resultados de acordo com a clas
 Exibição de Detalhes do Filme: Exibe informações detalhadas sobre cada filme, como sinopse, data de lançamento, nota média e cartaz.
 
 ## Tecnologias Utilizadas
-PHP: Linguagem de programação para o desenvolvimento back-end.
-
-Laravel: Framework PHP para o desenvolvimento da aplicação web.
-
-Tailwind CSS: Biblioteca de utilitários CSS para estilização responsiva e customizável.
-
-TMDb API: API externa utilizada para obter dados sobre filmes, séries e outros conteúdos de mídia.
+<div align="left">
+    <img width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+    <img width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />  
+    <img width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+<div/>
 
 ## Interface
 ![image](https://github.com/user-attachments/assets/4b015625-8190-4759-a376-c6644e2a18ef)
