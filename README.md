@@ -18,10 +18,6 @@ Tailwind CSS: Biblioteca de utilitários CSS para estilização responsiva e cus
 
 TMDb API: API externa utilizada para obter dados sobre filmes, séries e outros conteúdos de mídia.
 
-Blade: Engine de templates do Laravel para a construção de páginas dinâmicas.
-
-Composer: Gerenciador de dependências PHP, utilizado para instalar pacotes Laravel e outras bibliotecas.
-
 ## Interface
 ![image](https://github.com/user-attachments/assets/4b015625-8190-4759-a376-c6644e2a18ef)
 
